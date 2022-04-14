@@ -1,0 +1,91 @@
+/* You can add global styles to this file, and also import other style files */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: "Open Sans", Helvetica, Arial, "sans-serif";    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+    --orange: #ff7000;
+    --blue: #004a76;
+	--green: #00A200;
+    --dark-blue: #002d47;
+    --gray: rgba(88, 89, 91, 1);
+    --light-gray: rgba(232, 232, 232, 1);    
+    --light-gray-2: rgb(247, 247, 247);
+}
+
+input, textarea, select {
+	padding: 10px;
+	font-size: 16px;
+}
+
+input:focus, textarea:focus, select:focus {
+	outline: none;
+}
+
+textarea {
+	resize: none;
+}
+
+.error-message {
+    color: red;
+}
+
+.valid {
+    border: 1px solid var(--green);
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.invalid:focus {
+	border-color: red;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
